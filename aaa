@@ -1,0 +1,19 @@
+buoc 1:
+khoi tao module Tothao_Blog
+
+- tao file registration.php
+- tao fie etc/module.xml
+- chay lenh: bin/magento setup:upgrade ( co the viet tat la bin/magento se:up) de cai dat module
+buoc 2:
+tao bang thao_blog_posts (bai viet) gom cac cot:
+- id
+- title
+- author (tac gia)
+- image
+- url-key
+- store_views
+- created_at
+- updated_at
+- status
+buoc 3: tao modal, resource modal va collection cho bang thao_blog_posts
+
