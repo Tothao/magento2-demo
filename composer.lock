@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03deca49598d22dd15bb56d2ca3ef5e6",
+    "content-hash": "64c7a395d4f35c1580c062ee856b7b4f",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -21115,69 +21115,6 @@
                 }
             ],
             "time": "2024-03-30T18:03:49+00:00"
-        },
-        {
-            "name": "sutunam/module-base",
-            "version": "1.0.6",
-            "source": {
-                "type": "git",
-                "url": "git@git.sutunam.com:magento2-extensions/Sutunam_Base.git",
-                "reference": "87f688933059a3453b7518847c5d06cff3fdf0a1"
-            },
-            "require": {
-                "magento/framework": "^100|^101|^102|^103"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Sutunam\\Base\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Base Module for Sutunam Extensions",
-            "homepage": "https://www.sutunam.com",
-            "keywords": [
-                "base",
-                "magento2"
-            ],
-            "time": "2024-02-27T08:31:29+00:00"
-        },
-        {
-            "name": "sutunam/module-seo",
-            "version": "1.1.7",
-            "source": {
-                "type": "git",
-                "url": "git@git.sutunam.com:magento2-extensions/Sutunam_Seo.git",
-                "reference": "aa7793a8adc01d429518b526f8f63a5e4a52f678"
-            },
-            "require": {
-                "magento/framework": ">=100.1.0",
-                "sutunam/module-base": ">=1.0.0"
-            },
-            "type": "magento2-module",
-            "autoload": {
-                "files": [
-                    "registration.php"
-                ],
-                "psr-4": {
-                    "Sutunam\\Seo\\": ""
-                }
-            },
-            "license": [
-                "proprietary"
-            ],
-            "description": "Sutunam Seo Module for Magento 2",
-            "homepage": "https://git.sutunam.com/magento2-extensions/Sutunam_Seo/",
-            "keywords": [
-                "magento2",
-                "seo"
-            ],
-            "time": "2024-04-16T07:50:33+00:00"
         },
         {
             "name": "symfony/config",
