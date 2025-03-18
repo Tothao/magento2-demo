@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64c7a395d4f35c1580c062ee856b7b4f",
+    "content-hash": "dd9e65a5eebc510f9afce7b964594dc6",
     "packages": [
         {
             "name": "2tvenom/cborencode",
@@ -23539,6 +23539,72 @@
             "time": "2023-10-04T17:23:23+00:00"
         },
         {
+            "name": "thao/module-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tothao/Thao_Base.git",
+                "reference": "24c83e6289323c6e82a44a68345fe72f2d0dd529"
+            },
+            "require": {
+                "magento/framework": ">=100.1.0"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Thao\\Base\\": ""
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Thao",
+                    "email": "tothao2502@gmail.com"
+                }
+            ],
+            "description": "module base",
+            "time": "2025-02-11T16:26:02+00:00"
+        },
+        {
+            "name": "thao/module-blog",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Tothao/Thao_Blog.git",
+                "reference": "6c6c6687cdfce2d7627fe6af482c1ca7b26982bb"
+            },
+            "require": {
+                "thao/module-base": "dev-master"
+            },
+            "default-branch": true,
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Thao\\Blog\\": ""
+                }
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Thao",
+                    "email": "tothao2502@gmail.com"
+                }
+            ],
+            "description": "Magento 2 Blog Module",
+            "time": "2025-03-18T10:27:43+00:00"
+        },
+        {
             "name": "tubalmartin/cssmin",
             "version": "v4.1.1",
             "source": {
@@ -28953,7 +29019,10 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "thao/module-base": 20,
+        "thao/module-blog": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": [],

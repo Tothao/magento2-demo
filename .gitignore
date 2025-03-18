@@ -65,7 +65,6 @@ atlassian*
 /pub/media/sales
 /pub/media/email
 /pub/media/catalog_webp
-/pub/media/sutunam
 /pub/media/storelocator
 /pub/static/*
 !/pub/static/.htaccess

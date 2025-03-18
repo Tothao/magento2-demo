@@ -21,7 +21,9 @@
         "magento/composer-dependency-version-audit-plugin": "~0.1",
         "magento/composer-root-update-plugin": "^2.0.4",
         "magento/product-community-edition": "2.4.7-p1",
-        "mageplaza/module-smtp": "^4.7"
+        "mageplaza/module-smtp": "^4.7",
+        "thao/module-base": "dev-master",
+        "thao/module-blog": "dev-master"
     },
     "autoload": {
         "exclude-from-classmap": [
@@ -73,21 +75,17 @@
     "minimum-stability": "stable",
     "prefer-stable": true,
     "repositories": {
+        "thao/module-blog": {
+            "type": "git",
+            "url": "https://github.com/Tothao/Thao_Blog.git"
+        },
         "0": {
             "type": "composer",
             "url": "https://repo.magento.com/"
         },
-        "sutunam": {
-            "type": "composer",
-            "url": "https://composer.sutunam.com/m2/"
-        },
-        "private-packagist": {
-            "type": "composer",
-            "url": "https://hyva-themes.repo.packagist.com/maxoutil-com/"
-        },
         "thao/module-base": {
             "type": "git",
-            "url": "git@github.com:Tothao/Thao_Base.git"
+            "url": "https://github.com/Tothao/Thao_Base.git"
         }
     },
     "extra": {
